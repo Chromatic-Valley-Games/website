@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './Immagine.png';
 import './App.css';
 
 function App() {
   return (
+    
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <p>
+          Chromatic valley game studio
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} alt="logo" />
+        <p>
+          We are building something great!
+        </p>
       </header>
     </div>
   );
