@@ -10,9 +10,9 @@ function App() {
       <p>
           Chromatic valley game studio
         </p>
-        <img src={logo} alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          We are building something great!
+          This is the beginning of something great!
         </p>
       </header>
     </div>
