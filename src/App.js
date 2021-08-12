@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import IntroBlock from './Components/IntroBlock';
+import HeaderBlock from './Components/HeaderBlock';
+import ShadowChris from './Components/ShadowChris';
+import ChromaWitch from './Components/ChromaWitch';
+import FreshFight from './Components/FreshFight';
+import Zeitergeist from './Components/Zeitergeist';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderBlock/>
+      <IntroBlock/>
+      <ShadowChris/>
+      <ChromaWitch/>
+      <FreshFight />
+      <Zeitergeist/>
+      <Contact/>
+      <Footer/>
+      {/* Todo Presentations */}
     </div>
   );
 }
