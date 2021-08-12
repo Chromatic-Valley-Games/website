@@ -1,4 +1,4 @@
-import { createTheme, withTheme } from "@material-ui/core";
+import { createTheme } from "@material-ui/core";
 
 const blackTheme = createTheme();
 blackTheme.typography.h3 = {

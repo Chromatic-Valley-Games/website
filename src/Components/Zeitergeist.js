@@ -1,4 +1,4 @@
-import { Box, Typography, Button, ThemeProvider, Grid } from '@material-ui/core';
+import { Box, Typography, Grid } from '@material-ui/core';
 
 export default function Zeitergeist() {
     return(
