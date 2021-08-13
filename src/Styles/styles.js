@@ -21,13 +21,25 @@ export const useStyles = makeStyles((theme) => ({
         height: "10vmin",
     },
 
-    blackTheme: {
-        backgroundColor: "#141619",
-        Color: "white",
-    },
-
-    blackThemeColor: {
-        Color: "white",
+    remarginalize: {
+        margin: "auto",
     }
 }));
 
+export const gamePresentation = makeStyles((theme) => ({
+    paragraph: {
+        paddingLeft: "4vmin",
+        paddingRight: "4vmin",
+        [theme.breakpoints.up('sm')]: {
+            width: "50%",
+            margin: "auto",
+        },
+    }
+}));
+
+export const navLogo = makeStyles((theme) => ({
+    logo: {
+        height: "3vmin",
+        width: "3vmin",
+    },
+}));

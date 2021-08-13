@@ -1,6 +1,6 @@
 import { Box, Divider, Grid, Typography } from '@material-ui/core';
 import logo from '../Images/chromatic-valley-2.png'
-import { useStyles } from '../Styles/imageStyle';
+import { useStyles } from '../Styles/styles';
 
 export default function Footer() {
     const classes = useStyles();
