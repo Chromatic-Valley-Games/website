@@ -20,7 +20,6 @@ function App() {
       <Zeitergeist/>
       <Contact/>
       <Footer/>
-      {/* Todo Presentations */}
     </div>
   );
 }
